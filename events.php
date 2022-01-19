@@ -245,7 +245,7 @@
     margin-left: 25%;
     font-size: 400%;
     text-transform: uppercase;
-    color: lightblue;
+    color: rgb(245, 246, 250);
     font-family: "titre_page2", "titre_page", monospace;
     font-weight: lighter;
     text-shadow: rgb(103, 128, 159) 2px 2px 2px;
@@ -268,34 +268,42 @@
   .thumbnails{
     min-width: 300px;
     height: 350px;
-    background: linear-gradient(127deg, lightblue 30%, white);
-    color: black;
+    background: rgb(245, 246, 250);
+    color: white;
     margin-bottom: 20px;
     padding: 12px;
+    border-radius: 10px;
   }
 .thumbnails img{
+  filter: grayscale();
   width: 300px;
   height: 260px;
   overflow-y: hidden;
 }
 
  .events_text{
+  display: none;
+}
+
+.thumbnails:hover .events_text{
+  transition-duration: 1s;
+  display: contents;
   text-align: left;
   padding-left: 10px;
   line-height: 5px;
   text-decoration: none;
-  color: black
+  color:rgb(48, 57, 82);
 }
-
 .thumbnails:hover{
-  transition-duration: .5s;
+  transition-duration: 1s;
   min-width: 320px;
   height: 370px;
   padding: 20px;
 }
 
 .thumbnails:hover img{
-  transition-duration: .5s;
+  transition-duration: 1s;
+  filter: none;
   width: 320px;
   height: 280px;
   overflow-y: hidden;
