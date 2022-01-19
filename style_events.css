@@ -76,45 +76,68 @@ width: 80%;
 }
 
 header a{
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  font-size: 100%;
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+letter-spacing: 0.05em;
+font-size: 100%;
 }
 
 header a:hover{
-  color: rgb(14,33,40);
+color: rgb(14,33,40);
+}
+
+/* Baniere */
+
+.banner{
+margin: 0;
+float: left;
+width: 100%;
+}
+
+img{
+margin: 0px;
+width: 100%;
 }
 
 /* event thumbnails */
-.events_parent{
-  width: 90%;
-  text-align: center;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
+.events{
+width: 70%;
+text-align: center;
+margin: auto;
+border: solid black 1px;
 }
 
-.events_child{
-  box-sizing:content-box;
-  background-color: lightblue;
-  border: solid black 2px;
-  padding: 2vw 2vh;
-  width: 290px;
-  height: 290px;
-  margin: 2vw 2vh;
-}
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 @media only screen and (max-width: 750px) {
   header ul{
   padding-right: 20px;
   }
-}
+}*/
+
+
+
+
+
+
+
+
 
 /* Responsive Navigation style for mobiles */
 
-  @media only screen and (max-width: 600px) {
+/*  @media only screen and (max-width: 600px) {
     .nav-screen{
     display: none;
     }
@@ -124,6 +147,7 @@ header a:hover{
     }
 
     .banner{
+      display: inherit;
       display: none;
     }
 
@@ -180,18 +204,4 @@ header a:hover{
       width: 60px;
       height: 60px;
     }
-  }
-
-
-/* Baniere */
-
-.banner{
-  margin: 0;
-  float: left;
-  width: 100%;
-}
-
-img{
-  margin: 0px;
-  width: 100%;
-}
+  } */
