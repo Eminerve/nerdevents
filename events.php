@@ -66,7 +66,7 @@
       <h1>Events</h1>
     </section>
     <section class="events">
-      <div class="thumbnails"><a href="#">
+      <div class="thumbnails"><a href="page_event.php">
         <img class="events_img" src="https://i.ibb.co/Wvt1xZN/geek-cmas-tree.png" alt="geek tree"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
@@ -235,6 +235,8 @@
   width: 100%;
   }
 
+
+/* Page title */
   .titre_page{
     z-index: 2;
     width: 50%;
@@ -250,6 +252,8 @@
     font-weight: lighter;
     text-shadow: rgb(103, 128, 159) 2px 2px 2px;
   }
+
+
 
   /* event thumbnails */
   .events{
