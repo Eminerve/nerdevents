@@ -17,7 +17,7 @@
 
         <div class="barre_nav">
           <ul>
-            <li class="event_menu"><a href="#">Events</a></li>
+            <li class="event_menu"><a href="events.php">Events</a></li>
             <li class="event_menu"><a href="#">Om Oss</a></li>
             <li class="event_menu"><a href="#">Bli Medlem</a></li>
           </ul>
@@ -70,7 +70,7 @@
         <img class="events_img" src="https://i.ibb.co/Wvt1xZN/geek-cmas-tree.png" alt="geek tree"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
-          <p>description of the show</p>
+          <p>Envent adress</p>
           <p><em>admission price</em> </p>
         </div>
       </div>
@@ -78,7 +78,7 @@
         <img class="events_img" src="https://i.ibb.co/QvT4Tyn/batman.png" alt="batman" border="0"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
-          <p>description of the show</p>
+          <p>Envent adress</p>
           <p><em>admission price</em> </p>
         </div>
       </div>
@@ -86,7 +86,7 @@
         <img class="events_img" src="https://i.ibb.co/qkdmQhV/avengers.png" alt="avengers" border="0"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
-          <p>description of the show</p>
+          <p>Envent adress</p>
           <p><em>admission price</em> </p>
         </div>
       </div>
@@ -94,7 +94,7 @@
         <img class="events_img" src="https://i.ibb.co/rZh1t2D/Capture-d-cran-2022-01-19-120629.png" alt="Capture-d-cran-2022-01-19-120629" border="0"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
-          <p>description of the show</p>
+          <p>Envent adress</p>
           <p><em>admission price</em> </p>
         </div>
       </div>
@@ -102,7 +102,7 @@
         <img class="events_img" src="https://i.ibb.co/gT090rz/onepiece.png" alt="onepiece" border="0"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
-          <p>description of the show</p>
+          <p>Envent adress</p>
           <p><em>admission price</em> </p>
         </div>
       </div>
@@ -110,7 +110,7 @@
         <img class="events_img" src="https://i.ibb.co/Z80KwV8/convention.png" alt="convention" border="0"></a>
         <div class="events_text">
           <h3>Name of the event</h3>
-          <p>description of the show</p>
+          <p>Envent adress</p>
           <p><em>admission price</em> </p>
         </div>
       </div>

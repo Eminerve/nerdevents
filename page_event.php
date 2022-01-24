@@ -16,7 +16,7 @@
 
         <div class="barre_nav">
           <ul>
-            <li class="event_menu"><a href="#">Events</a></li>
+            <li class="event_menu"><a href="events.php">Events</a></li>
             <li class="event_menu"><a href="#">Om Oss</a></li>
             <li class="event_menu"><a href="#">Bli Medlem</a></li>
           </ul>
@@ -61,7 +61,13 @@
         <h2>NERDEVENTS</h2>
       </div>
       <div class="part2_card">
-
+        <img class="events_img" src="https://i.ibb.co/Wvt1xZN/geek-cmas-tree.png" alt="geek tree">
+        <div class="id_text">
+          <p><strong>Event Namn:</strong> Nom de l'event</p>
+          <p><strong>Var:</strong> <a href="#"> Adresse de  l'event</a></p>
+          <p><strong>Ingångspris:</strong> free </p>
+          <p><strong>Beskrivning:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
       </div>
     </section>
   </body>
@@ -90,14 +96,14 @@
   body{
   margin: 0;
   width: 100%;
-  background: linear-gradient(10deg, rgb(52, 172, 224,0.3) 40%, white 100%);
+  background-color: rgba(53, 102, 133);
 align-content: center;
 text-align: center;
   }
 
   header{
     background: rgb(14,33,40);
-    background: linear-gradient(125deg, rgb(186, 220, 88,0.9668242296918768) 10%, rgb(106, 176, 76) 60%, rgb(186, 220, 88,0.9668242296918768) 100%);
+    background: linear-gradient(125deg, rgba(53, 102, 133,0.9668242296918768) 10%, rgba(46,238,253,1) 60%, rgba(53, 102, 133,0.9668242296918768) 100%);
 
   }
 
@@ -172,8 +178,13 @@ text-align: center;
   }
 
 /* Identity Card  */
-
+@keyframes appear {
+  0% {left: 0;opacity: 0;transform: translate(-10%);}
+  100% {left: 30%;opacity: 1; transform: translate(0);}
+}
 .identity_card{
+  animation: appear 2s;
+  animation-timing-function: ease-in-out;
   width: 60%;
   align-items: center;
   align-content: center;
@@ -183,21 +194,21 @@ text-align: center;
   height: 70%;
 /*  border: solid black 2px;*/
   border-radius: 30px;
-  box-shadow: grey 2px 2px 2px 2px;
-background: linear-gradient(125deg, rgb(255, 218, 121,0.4) 10%, rgb(255, 204, 204,0.7) 60%, rgb(255, 218, 121,0.4) 100%);
+  box-shadow: rgba(46,238,253,1) 5px 6px 12px;
+  background: rgb(245, 246, 250);
 }
 
 .part1_card{
   border-radius: 30px 30px 0 0;
   border-bottom: solid black 2px;
-  background-color: rgb(247, 241, 227,0.7);
+  background: rgb(245, 246, 250);
   text-align: center;
   align-content: center;
   justify-content: center;
   align-self: center;
 }
 .part1_card h2{
-  font-family: Arial;
+  font-family: "titre_page2", "titre_page", monospace;
   text-shadow: 1px 1px grey;
   align-self: center;
   text-align: center;
@@ -211,8 +222,65 @@ background: linear-gradient(125deg, rgb(255, 218, 121,0.4) 10%, rgb(255, 204, 20
 }
 
 .part2_card{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 30px;
+align-items: center;
+align-self: center;
+align-content: center;
+}
 
+.events_img{
+  flex:1;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  border-radius: 10px;
+  filter: grayscale();
+}
 
+.events_img img{
+  margin: auto;
+  width: 100%;
+  filter: grayscale();
+}
+
+.events_img:hover{
+  transition-duration: 1s;
+  filter: none;
+}
+
+.id_text{
+  flex:2;
+  text-align:left;
+  margin-left: 30px;
+
+}
+
+.id_text strong{
+  font-size: 1.3rem;
+  font-family: monospace;
+}
+
+.id_text p{
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+.id_text a{
+  font-size: 1.2rem;
+  font-family: cursive;
+  color: black;
+  text-decoration: none;
+}
+
+.id_text a:hover{
+  font-size: 1.2rem;
+  font-family: cursive;
+  color: rgba(53, 102, 133);
+  text-decoration: underline;
 }
   </style>
 </head>
