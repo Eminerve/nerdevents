@@ -200,7 +200,7 @@
   }
 
   .logo {
-  width: 7%;
+  width: 100px;
   align-items: center;
   }
 
@@ -253,10 +253,14 @@
     text-shadow: rgb(103, 128, 159) 2px 2px 2px;
   }
 
-
+  @keyframes entrance{
+    0% {opacity: 0;transform: translateY(10%);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
 
   /* event thumbnails */
   .events{
+  animation: entrance 1.5s ease-in-out;
   width: 80%;
   z-index: 2;
   text-align: center;
