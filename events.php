@@ -61,10 +61,12 @@
       <img src="https://i.ibb.co/2qjY03W/stargate-banner.jpg" alt="baniere">
     </div>
 
-<!-- Flex section event thumbnails -->
+<!-- Page Title -->
     <section class="titre_page">
       <h1>Events</h1>
     </section>
+
+<!-- Flex section event thumbnails -->
     <section class="events">
       <div class="thumbnails"><a href="page_event.php">
         <img class="events_img" src="https://i.ibb.co/Wvt1xZN/geek-cmas-tree.png" alt="geek tree"></a>
@@ -250,7 +252,7 @@
     color: rgb(245, 246, 250);
     font-family: "titre_page2", "titre_page", monospace;
     font-weight: lighter;
-    text-shadow: rgb(103, 128, 159) 2px 2px 2px;
+    text-shadow: rgb(103, 128, 159) 2px 6px 2px;
   }
 
   @keyframes entrance{
