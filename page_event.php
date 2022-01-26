@@ -19,7 +19,7 @@
         <div class="barre_nav">
           <ul>
             <li class="event_menu"><a href="events.php">Events</a></li>
-            <li class="event_menu"><a href="#">Om Oss</a></li>
+            <li class="event_menu"><a href="om_oss.php">Om Oss</a></li>
             <li class="event_menu"><a href="#">Bli Medlem</a></li>
           </ul>
         </div>

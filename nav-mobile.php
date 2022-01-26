@@ -80,7 +80,7 @@ li {
   <a href="index.php" class="active logo"><img src="https://i.ibb.co/pPYY0s7/logo.png" alt="logo Nerdevents" width="100px" height="100px"></a>
   <div id="myLinks">
     <li><a href="events.php">Events</a></li>
-    <li><a href="#">Om Oss</a></li>
+    <li><a href="om_oss.php">Om Oss</a></li>
     <li><a href="#">Bli Medlem</a></li>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">

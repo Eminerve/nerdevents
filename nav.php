@@ -16,7 +16,7 @@
       <div class="barre_nav">
         <ul>
           <li><a href="events.php">Events</a></li>
-          <li><a href="#">Om Oss</a></li>
+          <li><a href="om_oss.php">Om Oss</a></li>
           <li><a href="#">Bli Medlem</a></li>
         </ul>
       </div>
