@@ -98,6 +98,16 @@
   }
 
   @font-face {
+    font-family: "futurist";
+    src: url("font/futurist.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: "neuropolitical";
+    src: url("font/neuropolitical.ttf") format('truetype');
+  }
+
+  @font-face {
     font-family: "titre_page2";
     src: url("font/CantedFXBlod.otf") format('truetype');
   }
@@ -115,15 +125,12 @@ html{
 body{
   margin: 0;
   width: 100%;
-  background-color: rgba(53, 102, 133);
+  background: url("https://i.ibb.co/tCpg99C/4-44531-wallpaper-planet-space-satellite-outer-space-space-wallpapers.jpg");
   align-content: center;
   text-align: center;
 }
 
 header{
-  background: rgb(14,33,40);
-  background: linear-gradient(125deg, rgba(53, 102, 133,0.9668242296918768) 10%, rgba(46,238,253,1) 60%, rgba(53, 102, 133,0.9668242296918768) 100%);
-
 }
 
 /* Responsive for navigation bar */
@@ -217,15 +224,15 @@ header a:hover{
   height: 70%;
   /*  border: solid black 2px;*/
   border-radius: 30px;
-  box-shadow: rgba(46,238,253,1) 5px 6px 12px;
-  background: rgb(245, 246, 250);
+
+  background: rgb(103, 128, 159,0.5);
 }
 
   /* Title of the ID card */
 .part1_card{
   border-radius: 30px 30px 0 0;
   border-bottom: solid black 2px;
-  background: rgb(245, 246, 250);
+  background: rgb(245, 246, 250,0.6);
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -248,6 +255,7 @@ header a:hover{
 
   /* 2nd part of the ID card */
 .part2_card{
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -280,20 +288,26 @@ header a:hover{
 }
 
 .id_text strong{
-  font-size: 1.3rem;
-  font-family: monospace;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "neuropolitical";
+  letter-spacing: .2rem;
+  text-transform: uppercase;
 }
 
 .id_text p{
+  font-weight: 200;
   font-size: 1.2rem;
-  font-family: cursive;
+  font-family: "futurist";
+  letter-spacing: 1;
 }
 
 .id_text a{
   font-size: 1.2rem;
-  font-family: cursive;
-  color: black;
+  font-family: "futurist";
+  color: white;
   text-decoration: none;
+  letter-spacing: 1;
 }
 
   /* Hover on the image and adress */
@@ -304,9 +318,10 @@ header a:hover{
 
 .id_text a:hover{
   font-size: 1.2rem;
-  font-family: cursive;
-  color: rgba(53, 102, 133);
+  font-family: "futurist";
+  color: #1abc9c;
   text-decoration: underline;
+  letter-spacing: 1;
 }
 </style>
 </html>
