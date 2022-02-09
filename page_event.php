@@ -125,9 +125,12 @@ html{
 body{
   margin: 0;
   width: 100%;
-  background: url("https://i.ibb.co/tCpg99C/4-44531-wallpaper-planet-space-satellite-outer-space-space-wallpapers.jpg");
+  background: url("https://i.ibb.co/b25zH2W/wallpaper-3584229-1280.jpg");
   align-content: center;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header{
@@ -255,7 +258,7 @@ header a:hover{
 
   /* 2nd part of the ID card */
 .part2_card{
-  color: white;
+  color: lightGrey;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -288,6 +291,8 @@ header a:hover{
 }
 
 .id_text strong{
+  color: lightGrey;
+  text-shadow: 4px 3px 5px black;
   font-size: 1.1rem;
   font-weight: 500;
   font-family: "neuropolitical";
@@ -305,7 +310,7 @@ header a:hover{
 .id_text a{
   font-size: 1.2rem;
   font-family: "futurist";
-  color: white;
+  color: lightGrey;
   text-decoration: none;
   letter-spacing: 1;
 }
