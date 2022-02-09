@@ -342,12 +342,10 @@ section.staff_organisation{
   box-shadow:  25px 25px 49px #bf832f,
              -25px -25px 49px #ffb13f;
   border-radius: 50%;
-  filter: blur(0px);
 }
 
 .profil img:hover{
   border-radius: 50%;
-  filter: blur(0);
 }
 
 .profil_text{
